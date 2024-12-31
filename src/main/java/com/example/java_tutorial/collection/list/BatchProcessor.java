@@ -1,5 +1,9 @@
 package com.example.java_tutorial.collection.list;
 
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
 public class BatchProcessor {
 
   private final MyList<Integer> list;
@@ -16,5 +20,6 @@ public class BatchProcessor {
     long endTime = System.currentTimeMillis();
     System.out.println("크기: " + size + ", 계산 시간: " + (endTime - startTime) + "ms");
   }
+
 
 }
