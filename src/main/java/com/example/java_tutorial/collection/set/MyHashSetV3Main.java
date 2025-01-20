@@ -1,7 +1,5 @@
 package com.example.java_tutorial.collection.set;
 
-import com.example.java_tutorial.collection.set.member.Member;
-
 public class MyHashSetV3Main {
 
   public static void main(String[] args) {
