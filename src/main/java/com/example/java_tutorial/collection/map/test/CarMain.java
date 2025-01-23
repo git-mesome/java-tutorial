@@ -1,4 +1,4 @@
-package com.example.java_tutorial.collection.testmap;
+package com.example.java_tutorial.collection.map.test;
 
 public class CarMain {
 

@@ -1,4 +1,4 @@
-package com.example.java_tutorial.collection.teststack;
+package com.example.java_tutorial.collection.deque.stack.test;
 
 public class BrowserHistoryTest {
 

@@ -1,4 +1,4 @@
-package com.example.java_tutorial.collection.testqueue;
+package com.example.java_tutorial.collection.deque.test;
 
 import java.util.ArrayDeque;
 import java.util.Queue;

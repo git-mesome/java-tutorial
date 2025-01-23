@@ -1,4 +1,4 @@
-package com.example.java_tutorial.collection.testqueue;
+package com.example.java_tutorial.collection.deque.test;
 
 public class SchedulerTest {
 
