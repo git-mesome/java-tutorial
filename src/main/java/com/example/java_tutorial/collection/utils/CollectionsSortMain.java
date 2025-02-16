@@ -24,7 +24,7 @@ public class CollectionsSortMain {
     Collections.shuffle(list);
     System.out.println("shuffle list = " + list);
 
-    // list.soft 가 더 낫다.
+    // list.sort 가 더 낫다.
     Collections.sort(list);
     System.out.println("sort list = " + list);
 
