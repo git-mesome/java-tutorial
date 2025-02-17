@@ -91,10 +91,7 @@ public class MyLinkedListV3<E> {
 
   @Override
   public String toString() {
-    return "MyLinkedListV1{" +
-        "first=" + first +
-        ", size=" + size +
-        '}';
+    return "MyLinkedListV1{" + "first=" + first + ", size=" + size + '}';
   }
 
   private static class Node<E> {
@@ -120,8 +117,6 @@ public class MyLinkedListV3<E> {
       }
       sb.append("]");
       return sb.toString();
-
     }
   }
-
 }

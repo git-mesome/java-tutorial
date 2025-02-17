@@ -13,6 +13,5 @@ public class UniqueNamesTest3 {
     for (Integer i : treeSet) {
       System.out.println(i);
     }
-
   }
 }

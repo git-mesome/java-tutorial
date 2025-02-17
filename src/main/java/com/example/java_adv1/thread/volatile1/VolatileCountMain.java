@@ -5,7 +5,7 @@ import static com.example.java_adv1.util.ThreadUtils.sleep;
 
 public class VolatileCountMain {
 
-  public static void main(String[] args){
+  public static void main(String[] args) {
     final Task task = new Task();
     final Thread thread = new Thread(task, "work");
     thread.start();
@@ -13,8 +13,7 @@ public class VolatileCountMain {
     sleep(1000);
 
     task.flag = false;
-    log("flag = "+task.flag+", count = "+task.count+" in main");
-
+    log("flag = " + task.flag + ", count = " + task.count + " in main");
   }
 
   static class Task implements Runnable {
@@ -22,19 +21,18 @@ public class VolatileCountMain {
     boolean flag = true;
     long count;
 
-//    volatile boolean flag = true;
-//    volatile long count;
+    //    volatile boolean flag = true;
+    //    volatile long count;
 
     @Override
     public void run() {
       while (flag) {
         count++;
         if (count % 100_000_000 == 0) {
-          log("flag = "+flag+", count = "+count+" in while()");
+          log("flag = " + flag + ", count = " + count + " in while()");
         }
       }
-      log("flag = "+flag+", count = "+count+" 종료");
-
+      log("flag = " + flag + ", count = " + count + " 종료");
     }
   }
 }

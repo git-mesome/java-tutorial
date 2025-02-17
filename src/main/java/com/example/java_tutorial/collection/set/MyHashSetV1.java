@@ -67,11 +67,13 @@ public class MyHashSetV1 {
 
   @Override
   public String toString() {
-    return "MyHashSetV1{" +
-        "buckets=" + Arrays.toString(buckets) +
-        ", size=" + size +
-        ", capacity=" + capacity +
-        '}';
+    return "MyHashSetV1{"
+        + "buckets="
+        + Arrays.toString(buckets)
+        + ", size="
+        + size
+        + ", capacity="
+        + capacity
+        + '}';
   }
-
 }

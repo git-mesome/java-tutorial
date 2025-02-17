@@ -15,7 +15,7 @@ public class MyArrayListV3BadMain {
     Integer num2 = (Integer) numberList.get(1);
 
     // ClassCastException 발생, 문자를 Integer로 캐스팅
-    //Integer num3 = (Integer) numberList.get(2);
+    // Integer num3 = (Integer) numberList.get(2);
 
   }
 }

@@ -67,11 +67,13 @@ public class MyHashSetV3<E> implements MySet<E> {
 
   @Override
   public String toString() {
-    return "MyHashSetV3{" +
-        "buckets=" + Arrays.toString(buckets) +
-        ", size=" + size +
-        ", capacity=" + capacity +
-        '}';
+    return "MyHashSetV3{"
+        + "buckets="
+        + Arrays.toString(buckets)
+        + ", size="
+        + size
+        + ", capacity="
+        + capacity
+        + '}';
   }
-
 }

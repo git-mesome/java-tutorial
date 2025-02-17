@@ -5,7 +5,11 @@ import java.util.Iterator;
 public class MyArrayMain {
 
   public static void main(String[] args) {
-    final MyArray myArray = new MyArray(new int[]{1, 2, 3, 4,});
+    final MyArray myArray =
+        new MyArray(
+            new int[] {
+              1, 2, 3, 4,
+            });
     final Iterator<Integer> iterator = myArray.iterator();
 
     System.out.println("iterator 사용");
@@ -18,6 +22,5 @@ public class MyArrayMain {
     for (int value : myArray) {
       System.out.println(value);
     }
-
   }
 }

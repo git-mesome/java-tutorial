@@ -14,6 +14,5 @@ public class RectangleTest {
     for (Rectangle rectangle : rectangleSet) {
       System.out.println("rectangle = " + rectangle);
     }
-
   }
 }

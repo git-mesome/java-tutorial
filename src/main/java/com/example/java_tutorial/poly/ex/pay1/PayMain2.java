@@ -1,7 +1,6 @@
 package com.example.java_tutorial.poly.ex.pay1;
 
 import com.example.java_tutorial.poly.ex.pay0.PayService;
-
 import java.util.Scanner;
 
 public class PayMain2 {

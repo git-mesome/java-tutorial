@@ -10,7 +10,5 @@ public class NetworkServiceV1_1 {
     clinet.connect();
     clinet.send(data);
     clinet.disconnect();
-
   }
-
 }

@@ -10,20 +10,19 @@ public class WordFrequencyTest1 {
     final String[] splitStr = text.split(" ");
 
     final Map<String, Integer> map = new HashMap<>();
-//    for (String word : splitStr) {
-//      Integer count = map.get(word);
-//      if (count == null) {
-//        count = 0;
-//      }
-//      count++;
-//      map.put(word, count);
-//    }
+    //    for (String word : splitStr) {
+    //      Integer count = map.get(word);
+    //      if (count == null) {
+    //        count = 0;
+    //      }
+    //      count++;
+    //      map.put(word, count);
+    //    }
 
     for (String word : splitStr) {
       map.put(word, map.getOrDefault(word, 0) + 1);
     }
 
     System.out.println(map);
-
   }
 }

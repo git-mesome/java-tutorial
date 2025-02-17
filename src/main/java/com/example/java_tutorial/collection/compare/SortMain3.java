@@ -1,7 +1,6 @@
 package com.example.java_tutorial.collection.compare;
 
 import java.util.Arrays;
-import java.util.Comparator;
 
 public class SortMain3 {
   public static void main(String[] args) {

@@ -14,6 +14,5 @@ public class UniqueNamesTest2 {
     for (Integer i : linkedHashSet) {
       System.out.println(i);
     }
-
   }
 }

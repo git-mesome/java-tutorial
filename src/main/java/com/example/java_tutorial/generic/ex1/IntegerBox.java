@@ -11,5 +11,4 @@ public class IntegerBox {
   public Integer get() {
     return value;
   }
-
 }

@@ -28,9 +28,8 @@ public class HashStart4 {
     int searchValue = 14;
     int hashIndex = hashIndex(searchValue);
     System.out.println("searchValue hashIndex = " + hashIndex);
-    Integer result = inputArray[hashIndex]; //O(1)
+    Integer result = inputArray[hashIndex]; // O(1)
     System.out.println(result);
-
   }
 
   private static void add(Integer[] inputArray, int value) {
@@ -41,5 +40,4 @@ public class HashStart4 {
   static int hashIndex(int value) {
     return value % CAPACITY;
   }
-
 }

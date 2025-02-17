@@ -1,7 +1,6 @@
 package com.example.java_tutorial.exception.ex4.exception;
 
-
-public class NetworkClientV5 implements AutoCloseable{
+public class NetworkClientV5 implements AutoCloseable {
 
   private final String address;
   public boolean connectError;
@@ -15,7 +14,7 @@ public class NetworkClientV5 implements AutoCloseable{
     if (connectError) {
       throw new ConnectExceptionV4("connectError", address + " 서버 연결 실패");
     }
-    //연결 성공
+    // 연결 성공
     System.out.println(address + " 서버 연결 성공");
   }
 
@@ -23,7 +22,7 @@ public class NetworkClientV5 implements AutoCloseable{
     if (sendError) {
       throw new SendExceptionV4("sendError", address + " 서버에 데이터 전송 실패");
     }
-    //전송 성공
+    // 전송 성공
     System.out.println(address + " 서버에 데이터 전송 " + data);
   }
 
@@ -45,5 +44,4 @@ public class NetworkClientV5 implements AutoCloseable{
     System.out.println("NetworkClientV5.close");
     disconnect();
   }
-
 }

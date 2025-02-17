@@ -11,5 +11,4 @@ public class SortMain1 {
     Arrays.sort(array);
     System.out.println(Arrays.toString(array));
   }
-
 }

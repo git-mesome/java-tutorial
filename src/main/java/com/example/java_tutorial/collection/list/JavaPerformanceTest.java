@@ -11,7 +11,7 @@ public class JavaPerformanceTest {
     addFirst(new ArrayList<>(), size);
     addMid(new ArrayList<>(), size);
 
-    ArrayList<Integer> arrayList = new ArrayList<>(); //조회용 데이터로 사용
+    ArrayList<Integer> arrayList = new ArrayList<>(); // 조회용 데이터로 사용
     addLast(arrayList, size);
 
     int loop = 10_000;
@@ -19,7 +19,6 @@ public class JavaPerformanceTest {
     getIndex(arrayList, loop, 0);
     getIndex(arrayList, loop, size / 2);
     getIndex(arrayList, loop, size - 1);
-
 
     System.out.println("==ArrayList 검색==");
     search(arrayList, loop, 0);
@@ -29,7 +28,7 @@ public class JavaPerformanceTest {
     System.out.println("==LinkedList 추가==");
     addFirst(new LinkedList<>(), size);
     addMid(new LinkedList<>(), size);
-    LinkedList<Integer> linkedList = new LinkedList<>(); //조회용 데이터로 사용
+    LinkedList<Integer> linkedList = new LinkedList<>(); // 조회용 데이터로 사용
     addLast(linkedList, size);
 
     System.out.println("==LinkedList 조회==");
@@ -49,7 +48,8 @@ public class JavaPerformanceTest {
       list.indexOf(findValue);
     }
     long endTime = System.currentTimeMillis();
-    System.out.println("findValue: " + findValue + ", 반복: " + loop + ", 계산 시간: " + (endTime - startTime) + "ms");
+    System.out.println(
+        "findValue: " + findValue + ", 반복: " + loop + ", 계산 시간: " + (endTime - startTime) + "ms");
   }
 
   private static void getIndex(List<Integer> list, int loop, int index) {
@@ -58,7 +58,8 @@ public class JavaPerformanceTest {
       list.get(index);
     }
     long endTime = System.currentTimeMillis();
-    System.out.println("index: " + index + ", 반복: " + loop + ", 계산 시간: " + (endTime - startTime) + "ms");
+    System.out.println(
+        "index: " + index + ", 반복: " + loop + ", 계산 시간: " + (endTime - startTime) + "ms");
   }
 
   private static void addFirst(List<Integer> list, int size) {

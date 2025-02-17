@@ -2,7 +2,6 @@ package com.example.java_tutorial.time.test;
 
 import java.util.Scanner;
 
-
 public class TestCalendarPrinter2 {
   /**
    * 입력 조건: 년도, 월

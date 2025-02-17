@@ -1,7 +1,5 @@
 package com.example.java_tutorial.collection.compare;
 
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 

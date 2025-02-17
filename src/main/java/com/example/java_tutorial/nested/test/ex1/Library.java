@@ -15,7 +15,6 @@ public class Library {
     } else {
       System.out.println("도서관 저장 공간이 부족합니다.");
     }
-
   }
 
   public void showBooks() {
@@ -25,7 +24,6 @@ public class Library {
     }
   }
 
-
   class Book {
     private String title;
     private String author;
@@ -34,8 +32,5 @@ public class Library {
       this.title = title;
       this.author = author;
     }
-
-
   }
-
 }

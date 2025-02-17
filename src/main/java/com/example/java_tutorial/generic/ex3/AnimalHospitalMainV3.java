@@ -18,7 +18,7 @@ public class AnimalHospitalMainV3 {
     catHospital.checkup();
 
     // 문제1 해결 : 개 병원에 고양이 전달 불가
-//    dogHospital.set(cat);
+    //    dogHospital.set(cat);
 
     // 문제2 : 개 타입 반환
     dogHospital.set(dog);

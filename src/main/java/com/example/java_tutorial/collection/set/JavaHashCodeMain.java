@@ -19,14 +19,14 @@ public class JavaHashCodeMain {
     System.out.println("A.hashCode() = " + strA.hashCode());
     System.out.println("AB.hashCode() = " + strAB.hashCode());
 
-    //마이너그 값 가능
+    // 마이너그 값 가능
     System.out.println("-1.hashCode = " + Integer.valueOf(-1).hashCode());
 
-    //둘은 같을까?
+    // 둘은 같을까?
     Member member1 = new Member("idA");
     Member member2 = new Member("idA");
 
-    //equals, hashCode를 오버라이딩 안한 경우와 한 경우를 비교
+    // equals, hashCode를 오버라이딩 안한 경우와 한 경우를 비교
     System.out.println("(member1==member2) = " + (member1 == member2));
     System.out.println("member1.equals(member2) = " + (member1.equals(member2)));
     System.out.println("member1.hashCode() = " + member1.hashCode());

@@ -14,6 +14,15 @@ public enum HttpStatus {
     this.message = message;
   }
 
+  public static HttpStatus findByCode(int code) {
+    for (HttpStatus status : HttpStatus.values()) {
+      if (status.getCode() == code) {
+        return status;
+      }
+    }
+    return null;
+  }
+
   public int getCode() {
     return code;
   }
@@ -24,14 +33,5 @@ public enum HttpStatus {
 
   public boolean isSuccess() {
     return code >= 200 && code < 300;
-  }
-
-  public static HttpStatus findByCode(int code) {
-    for (HttpStatus status : HttpStatus.values()) {
-      if (status.getCode() == code) {
-        return status;
-      }
-    }
-    return null;
   }
 }

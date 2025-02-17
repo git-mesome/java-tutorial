@@ -11,12 +11,11 @@ public class NestedOuter {
     public void print() {
       System.out.println(nestedInstanceValue);
 
-      //접근 불가- 클래스,메서드영역 static
-      //System.out.println(outInstanceValue);
+      // 접근 불가- 클래스,메서드영역 static
+      // System.out.println(outInstanceValue);
 
       System.out.println(outClassVaule);
       System.out.println(NestedOuter.outClassVaule);
-
     }
   }
 }

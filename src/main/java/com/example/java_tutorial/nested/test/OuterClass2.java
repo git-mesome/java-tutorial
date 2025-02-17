@@ -5,6 +5,5 @@ public class OuterClass2 {
     public void hello() {
       System.out.println("InnerClass.hello");
     }
-
   }
 }

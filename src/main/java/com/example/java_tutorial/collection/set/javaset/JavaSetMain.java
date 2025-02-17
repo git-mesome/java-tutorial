@@ -19,7 +19,7 @@ public class JavaSetMain {
     set.add("1");
     set.add("2");
 
-//    System.out.println("set = " + set);
+    //    System.out.println("set = " + set);
 
     Iterator<String> iterator = set.iterator();
 
@@ -28,5 +28,4 @@ public class JavaSetMain {
     }
     System.out.println();
   }
-
 }

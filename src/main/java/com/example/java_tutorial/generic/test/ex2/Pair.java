@@ -9,12 +9,12 @@ public class Pair<T1, T2> {
     return first;
   }
 
-  public T2 getSecond() {
-    return second;
-  }
-
   public void setFirst(T1 first) {
     this.first = first;
+  }
+
+  public T2 getSecond() {
+    return second;
   }
 
   public void setSecond(T2 second) {
@@ -23,6 +23,6 @@ public class Pair<T1, T2> {
 
   @Override
   public String toString() {
-    return "Pair{first="+first+" ,second="+second+"}";
+    return "Pair{first=" + first + " ,second=" + second + "}";
   }
 }

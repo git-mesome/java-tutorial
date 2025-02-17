@@ -14,5 +14,4 @@ public class MethodMain3 {
     Cat returnCat = hospital.printAndReturn(cat);
     System.out.println(returnCat);
   }
-
 }

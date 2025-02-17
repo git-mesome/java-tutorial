@@ -1,6 +1,5 @@
 package com.example.java_tutorial.exception.ex4.exception;
 
-
 public class NetworkClientV4 {
 
   private final String address;
@@ -15,7 +14,7 @@ public class NetworkClientV4 {
     if (connectError) {
       throw new ConnectExceptionV4("connectError", address + " 서버 연결 실패");
     }
-    //연결 성공
+    // 연결 성공
     System.out.println(address + " 서버 연결 성공");
   }
 
@@ -23,7 +22,7 @@ public class NetworkClientV4 {
     if (sendError) {
       throw new SendExceptionV4("sendError", address + " 서버에 데이터 전송 실패");
     }
-    //전송 성공
+    // 전송 성공
     System.out.println(address + " 서버에 데이터 전송 " + data);
   }
 
@@ -39,5 +38,4 @@ public class NetworkClientV4 {
       sendError = true;
     }
   }
-
 }

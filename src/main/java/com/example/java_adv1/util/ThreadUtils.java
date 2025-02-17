@@ -1,6 +1,5 @@
 package com.example.java_adv1.util;
 
-
 import static com.example.java_adv1.util.MyLogger.log;
 
 public abstract class ThreadUtils {
@@ -13,5 +12,4 @@ public abstract class ThreadUtils {
       throw new RuntimeException(e);
     }
   }
-
 }

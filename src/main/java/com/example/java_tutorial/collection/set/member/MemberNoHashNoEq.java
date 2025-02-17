@@ -14,8 +14,6 @@ public class MemberNoHashNoEq {
 
   @Override
   public String toString() {
-    return "MemberNoHashNoEq{" +
-        "id='" + id + '\'' +
-        '}';
+    return "MemberNoHashNoEq{" + "id='" + id + '\'' + '}';
   }
 }

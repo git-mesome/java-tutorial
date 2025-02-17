@@ -33,5 +33,4 @@ public class WildcardEx {
     System.out.println("이름? = " + animal.getName());
     return animal;
   }
-
 }

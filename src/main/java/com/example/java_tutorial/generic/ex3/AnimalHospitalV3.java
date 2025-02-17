@@ -2,7 +2,7 @@ package com.example.java_tutorial.generic.ex3;
 
 import com.example.java_tutorial.generic.animal.Animal;
 
-public class AnimalHospitalV3 <T extends Animal> {
+public class AnimalHospitalV3<T extends Animal> {
   private T animal;
 
   public void set(T animal) {
@@ -18,5 +18,4 @@ public class AnimalHospitalV3 <T extends Animal> {
   public T bigger(T target) {
     return animal.getSize() > target.getSize() ? animal : target;
   }
-
 }

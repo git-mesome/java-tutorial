@@ -20,10 +20,7 @@ public class MyUser implements Comparable<MyUser> {
 
   @Override
   public String toString() {
-    return "MyUser{" +
-        "id='" + id + '\'' +
-        ", age=" + age +
-        '}';
+    return "MyUser{" + "id='" + id + '\'' + ", age=" + age + '}';
   }
 
   @Override

@@ -25,13 +25,11 @@ public class StartTest4Main {
           log(value);
           try {
             Thread.sleep(millis);
-          }
-          catch (InterruptedException e) {
+          } catch (InterruptedException e) {
             throw new RuntimeException(e);
           }
         }
       }
     };
   }
-
 }

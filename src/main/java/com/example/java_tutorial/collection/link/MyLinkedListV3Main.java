@@ -1,6 +1,5 @@
 package com.example.java_tutorial.collection.link;
 
-
 public class MyLinkedListV3Main {
 
   public static void main(String[] args) {
@@ -19,5 +18,4 @@ public class MyLinkedListV3Main {
     Integer integer = intList.get(0);
     System.out.println("integer = " + integer);
   }
-
 }

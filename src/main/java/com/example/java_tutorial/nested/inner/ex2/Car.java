@@ -1,6 +1,5 @@
 package com.example.java_tutorial.nested.inner.ex2;
 
-
 public class Car {
   private String model;
   private int chargeLevel;
@@ -24,6 +23,4 @@ public class Car {
       System.out.println(model + "의 엔진을 구동합니다.");
     }
   }
-
-
 }

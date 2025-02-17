@@ -15,5 +15,4 @@ public interface MyList<E> {
   E remove(int index);
 
   int indexOf(E e);
-
 }

@@ -16,7 +16,5 @@ public class HttpStatusMain {
       System.out.println(status.getCode() + " " + status.getMessage());
       System.out.println("isSuccess = " + status.isSuccess());
     }
-
   }
-
 }

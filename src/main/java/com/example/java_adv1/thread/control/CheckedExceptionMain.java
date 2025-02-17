@@ -1,6 +1,5 @@
 package com.example.java_adv1.thread.control;
 
-import com.example.java_adv1.util.ThreadUtils;
 
 import static com.example.java_adv1.util.ThreadUtils.*;
 

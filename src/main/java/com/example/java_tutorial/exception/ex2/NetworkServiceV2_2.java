@@ -16,8 +16,7 @@ public class NetworkServiceV2_2 {
     try {
       client.send(data);
     } catch (NetworkClientExceptionV2 e) {
-      System.out.println("[오류] 코드: " + e.getErrorCode() + ", 메시지: " +
-          e.getMessage());
+      System.out.println("[오류] 코드: " + e.getErrorCode() + ", 메시지: " + e.getMessage());
       return;
     }
 

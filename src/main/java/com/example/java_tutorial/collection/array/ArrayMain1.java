@@ -27,7 +27,7 @@ public class ArrayMain1 {
     for (int i = 0; i < arr.length; i++) {
       System.out.println("arr[" + i + "] = " + arr[i]);
       if (arr[i] == value) {
-        System.out.println(value+" 찾음");
+        System.out.println(value + " 찾음");
         break;
       }
     }

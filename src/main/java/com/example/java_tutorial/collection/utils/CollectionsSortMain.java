@@ -30,6 +30,5 @@ public class CollectionsSortMain {
 
     Collections.reverse(list);
     System.out.println("reverse list = " + list);
-
   }
 }

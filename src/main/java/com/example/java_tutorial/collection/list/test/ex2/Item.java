@@ -19,5 +19,4 @@ public class Item {
   public int getTotalPrice() {
     return price * quantity;
   }
-
 }

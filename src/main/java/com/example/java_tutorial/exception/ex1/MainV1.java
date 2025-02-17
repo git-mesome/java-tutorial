@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class MainV1 {
 
   public static void main(String[] args) {
-//    NetworkServiceV1_1 networkService = new NetworkServiceV1_1();
-//    NetworkServiceV1_2 networkService = new NetworkServiceV1_2();
+    //    NetworkServiceV1_1 networkService = new NetworkServiceV1_1();
+    //    NetworkServiceV1_2 networkService = new NetworkServiceV1_2();
     NetworkServiceV1_3 networkService = new NetworkServiceV1_3();
 
     Scanner scanner = new Scanner(System.in);
@@ -21,5 +21,4 @@ public class MainV1 {
     }
     System.out.println("프로그램 정상 종료");
   }
-
 }

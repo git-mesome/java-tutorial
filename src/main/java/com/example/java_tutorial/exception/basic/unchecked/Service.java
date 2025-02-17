@@ -1,6 +1,5 @@
 package com.example.java_tutorial.exception.basic.unchecked;
 
-import com.example.java_tutorial.exception.basic.checked.MyCheckedException;
 
 /***
  * UnChecked 예외는

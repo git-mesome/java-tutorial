@@ -28,6 +28,5 @@ public class GetTimeMain {
     System.out.println("MINUTE of Day: " + dt.get(ChronoField.MINUTE_OF_DAY));
     System.out.println("SECOND_OF_DAY: " + dt.get(ChronoField.SECOND_OF_DAY));
     System.out.println("SECOND_OF_MINUTE: " + dt.get(ChronoField.SECOND_OF_MINUTE));
-
   }
 }

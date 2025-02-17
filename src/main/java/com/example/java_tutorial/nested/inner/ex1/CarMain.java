@@ -6,5 +6,4 @@ public class CarMain {
     Car myCar = new Car("Model Y", 100);
     myCar.start();
   }
-
 }

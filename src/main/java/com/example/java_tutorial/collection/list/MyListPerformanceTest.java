@@ -1,8 +1,5 @@
 package com.example.java_tutorial.collection.list;
 
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Set;
 
 public class MyListPerformanceTest {
   public static void main(String[] args) {

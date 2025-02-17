@@ -10,6 +10,5 @@ public class LibraryMain {
     library.addBook("자바 ORM 표쥰 JPA 프로그래밍", "김영한");
     library.addBook("OneMoreThing", "잡스");
     library.showBooks();
-
   }
 }

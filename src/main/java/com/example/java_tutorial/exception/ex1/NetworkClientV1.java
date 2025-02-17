@@ -6,7 +6,6 @@ public class NetworkClientV1 {
   public boolean connectError;
   public boolean sendError;
 
-
   public NetworkClientV1(String address) {
     this.address = address;
   }
@@ -40,9 +39,7 @@ public class NetworkClientV1 {
     }
   }
 
-
   public void disconnect() {
     System.out.println(address + " 서버 연결 해제");
   }
-
 }

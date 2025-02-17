@@ -20,7 +20,6 @@ public class JavaIterableMain {
 
     foreach(list);
     foreach(set);
-
   }
 
   private static void foreach(final Iterable<Integer> iterable) {
@@ -36,6 +35,4 @@ public class JavaIterableMain {
       System.out.println("iterator.next() = " + iterator.next());
     }
   }
-
-
 }

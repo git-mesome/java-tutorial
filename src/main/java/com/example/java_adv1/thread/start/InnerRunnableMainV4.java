@@ -1,6 +1,5 @@
 package com.example.java_adv1.thread.start;
 
-
 import static com.example.java_adv1.util.MyLogger.log;
 
 public class InnerRunnableMainV4 {
@@ -13,6 +12,4 @@ public class InnerRunnableMainV4 {
 
     log("main() end");
   }
-
-
 }

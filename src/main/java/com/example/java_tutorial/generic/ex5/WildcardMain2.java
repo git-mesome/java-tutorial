@@ -14,11 +14,10 @@ public class WildcardMain2 {
     // Animal 포함 상위 타입 전달 가능
     writeBox(objectBox);
     writeBox(animalBox);
-//    wrtieBox(dogBox); 컴파일에러 / 하한이 Animal
+    //    wrtieBox(dogBox); 컴파일에러 / 하한이 Animal
 
-    Animal animal= animalBox.get();
+    Animal animal = animalBox.get();
     System.out.println("animal = " + animal);
-
   }
 
   static void writeBox(Box<? super Animal> box) {

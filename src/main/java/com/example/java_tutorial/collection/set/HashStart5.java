@@ -21,41 +21,38 @@ public class HashStart5 {
     add(buckets, 8);
     add(buckets, 14);
     add(buckets, 99);
-    add(buckets, 9); //중복
+    add(buckets, 9); // 중복
     System.out.println("buckets = " + Arrays.toString(buckets));
 
-    //검색
+    // 검색
     int searchValue = 9;
     boolean contains = contains(buckets, searchValue);
     System.out.println("bucket.contains(" + searchValue + ") = " + contains);
-
-
   }
 
   private static void add(LinkedList<Integer>[] buckets, int value) {
     int hashIndex = hashIndex(value);
-    LinkedList<Integer> bucket = buckets[hashIndex]; //O(1)
-    if (!bucket.contains(value)) { //O(n)
+    LinkedList<Integer> bucket = buckets[hashIndex]; // O(1)
+    if (!bucket.contains(value)) { // O(n)
       bucket.add(value);
     }
   }
 
   private static boolean contains(LinkedList<Integer>[] buckets, int searchValue) {
     int hashIndex = hashIndex(searchValue);
-    LinkedList<Integer> bucket = buckets[hashIndex]; //O(1)
+    LinkedList<Integer> bucket = buckets[hashIndex]; // O(1)
 
-    return bucket.contains(searchValue); //O(n)
+    return bucket.contains(searchValue); // O(n)
 
-//    for (Integer integer : bucket) {
-//      if (integer == searchValue) {
-//        return true;
-//      }
-//    }
-//    return false;
+    //    for (Integer integer : bucket) {
+    //      if (integer == searchValue) {
+    //        return true;
+    //      }
+    //    }
+    //    return false;
   }
 
   static int hashIndex(int value) {
     return value % CAPACITY;
   }
-
 }

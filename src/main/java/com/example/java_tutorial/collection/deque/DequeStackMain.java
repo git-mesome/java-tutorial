@@ -18,6 +18,5 @@ public class DequeStackMain {
     System.out.println("deque.pop() = " + deque.pop());
     System.out.println("deque.pop() = " + deque.pop());
     System.out.println(deque);
-
   }
 }

@@ -23,7 +23,6 @@ public class DictionaryTest {
       String koreaMeaning = sc.nextLine();
 
       dictionary.put(englishWord, koreaMeaning);
-
     }
 
     System.out.println("==단어 검색 단계==");
@@ -39,10 +38,7 @@ public class DictionaryTest {
         System.out.println(searchWord + "은(는) 사전에 없는 단어입니다.");
       } else {
         System.out.println(searchWord + "의 뜻:" + dictionary.get(searchWord));
-
       }
-
     }
-
   }
 }

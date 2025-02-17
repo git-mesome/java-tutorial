@@ -16,5 +16,4 @@ public class GenericMethod {
     System.out.println("bound print: " + t);
     return t;
   }
-
 }

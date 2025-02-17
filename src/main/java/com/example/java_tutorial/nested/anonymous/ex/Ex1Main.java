@@ -22,9 +22,9 @@ public class Ex1Main {
 
     System.out.println("프로그램 종료");
   }
+
   public static void main(String[] args) {
     helloDice();
     helloSum();
   }
-
 }

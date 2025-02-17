@@ -1,6 +1,5 @@
 package com.example.java_tutorial.exception.ex4.exception;
 
-
 public class NetworkServiceV4 {
 
   public void sendMessage(String data) {

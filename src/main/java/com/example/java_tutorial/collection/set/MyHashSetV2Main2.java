@@ -23,7 +23,7 @@ public class MyHashSetV2Main2 {
 
     System.out.println(set);
 
-    //검색
+    // 검색
     Member searchValue = new Member("JPA");
     boolean result = set.contains(searchValue);
     System.out.println("set.contains(" + searchValue + ") = " + result);

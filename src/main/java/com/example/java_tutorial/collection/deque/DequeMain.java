@@ -24,6 +24,5 @@ public class DequeMain {
     System.out.println("deque.pollLast() = " + deque.pollLast());
     System.out.println("deque.pollLast() = " + deque.pollLast());
     System.out.println(deque);
-
   }
 }

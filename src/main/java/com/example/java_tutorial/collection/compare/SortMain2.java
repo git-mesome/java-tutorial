@@ -16,8 +16,6 @@ public class SortMain2 {
 
     Arrays.sort(array, new AscComparator().reversed());
     System.out.println("AscComparator.reversed: " + Arrays.toString(array));
-
-
   }
 
   static class AscComparator implements Comparator<Integer> {
@@ -27,7 +25,6 @@ public class SortMain2 {
       System.out.println("o1= " + o1 + ", o2= " + o2);
       return (o1 < o2) ? -1 : ((o1 == o2) ? 0 : 1);
     }
-
   }
 
   static class DescComparator implements Comparator<Integer> {
@@ -37,7 +34,5 @@ public class SortMain2 {
       System.out.println("o1= " + o1 + ", o2= " + o2);
       return (o1 < o2) ? -1 : ((o1 == o2) ? 0 : 1) * -1;
     }
-
   }
-
 }

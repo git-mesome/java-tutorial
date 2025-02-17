@@ -15,14 +15,14 @@ public class CommonKeyValueSum1 {
 
     final Map<String, Integer> map3 = new HashMap<>();
 
-//    for (Map.Entry<String, Integer> entry : map1.entrySet()) {
-//      final String key = entry.getKey();
-//      final int value = entry.getValue();
-//
-//      if (map2.containsKey(key)) {
-//        map3.put(key, map2.get(key) + value);
-//      }
-//    }
+    //    for (Map.Entry<String, Integer> entry : map1.entrySet()) {
+    //      final String key = entry.getKey();
+    //      final int value = entry.getValue();
+    //
+    //      if (map2.containsKey(key)) {
+    //        map3.put(key, map2.get(key) + value);
+    //      }
+    //    }
 
     for (String key : map1.keySet()) {
       int value = map1.get(key);

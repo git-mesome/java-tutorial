@@ -3,7 +3,7 @@ package com.example.java_tutorial.collection.link;
 public class NodeMain2 {
 
   public static void main(String[] args) {
-    //노드 생성하고 연결하기: A > B > C
+    // 노드 생성하고 연결하기: A > B > C
     Node first = new Node("A");
     first.next = new Node("B");
     first.next.next = new Node("C");
@@ -12,8 +12,6 @@ public class NodeMain2 {
     System.out.println(first);
 
     Node second = first.next;
-    System.out.println(second );
-
+    System.out.println(second);
   }
-
 }

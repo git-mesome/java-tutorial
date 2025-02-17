@@ -20,7 +20,6 @@ public class JoinTest2Main {
     t3.join();
 
     System.out.println("모든 스레드 실행 완료");
-
   }
 
   static class MyTask implements Runnable {

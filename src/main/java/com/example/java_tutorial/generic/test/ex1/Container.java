@@ -7,12 +7,11 @@ public class Container<T> {
     return item == null;
   }
 
-  public void setItem(T item) {
-    this.item = item;
-  }
-
   public T getItem() {
     return item;
   }
 
+  public void setItem(T item) {
+    this.item = item;
+  }
 }

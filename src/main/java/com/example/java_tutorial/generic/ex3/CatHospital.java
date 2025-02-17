@@ -18,5 +18,4 @@ public class CatHospital {
   public Cat bigger(Cat target) {
     return animal.getSize() > target.getSize() ? animal : target;
   }
-
 }

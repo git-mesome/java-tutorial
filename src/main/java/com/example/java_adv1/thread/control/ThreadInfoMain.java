@@ -1,8 +1,8 @@
 package com.example.java_adv1.thread.control;
 
-import com.example.java_adv1.thread.start.HelloRunnable;
-
 import static com.example.java_adv1.util.MyLogger.log;
+
+import com.example.java_adv1.thread.start.HelloRunnable;
 
 public class ThreadInfoMain {
 

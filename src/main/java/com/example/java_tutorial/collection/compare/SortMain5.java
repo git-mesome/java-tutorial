@@ -22,7 +22,5 @@ public class SortMain5 {
     treeSet2.add(myUser3);
     System.out.println("IdComparator 정렬");
     System.out.println(treeSet2);
-
   }
-
 }

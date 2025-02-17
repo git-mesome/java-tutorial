@@ -3,6 +3,13 @@ package com.example.java_tutorial.nested.local;
 public class LocalOuterV4 {
   private int outInstanceVar = 3;
 
+  public static void main(String[] args) {
+    LocalOuterV4 localOuterV1 = new LocalOuterV4();
+    Printer printer = localOuterV1.process(2);
+    //process()의 스택 프레임이 사라진 이후에 실행
+    printer.print();
+  }
+
   public Printer process(int paramVar) {
     int localVar = 1; //지연 변수는 스택 영역의 스택 프레임이 제거되면서 모두 제거됨
 
@@ -29,13 +36,6 @@ public class LocalOuterV4 {
 //    localVar = 10;
 //    paramVar = 20;
     return print;
-  }
-
-  public static void main(String[] args) {
-    LocalOuterV4 localOuterV1 = new LocalOuterV4();
-    Printer printer = localOuterV1.process(2);
-    //process()의 스택 프레임이 사라진 이후에 실행
-    printer.print();
   }
 
 }

@@ -22,7 +22,6 @@ public class ShoppingCart {
     int totalPrice = 0;
     for (Item item : cartList) {
       totalPrice += item.getTotalPrice();
-
     }
     return totalPrice;
   }

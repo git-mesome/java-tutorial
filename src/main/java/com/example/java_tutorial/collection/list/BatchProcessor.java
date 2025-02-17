@@ -1,8 +1,5 @@
 package com.example.java_tutorial.collection.list;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
 
 public class BatchProcessor {
 

@@ -1,7 +1,6 @@
 package com.example.java_tutorial.collection.array;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class MyArrayListV4Main {
   public static void main(String[] args) {

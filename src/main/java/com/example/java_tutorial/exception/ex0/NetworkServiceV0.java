@@ -9,7 +9,5 @@ public class NetworkServiceV0 {
     clinet.connect();
     clinet.send(data);
     clinet.disconnect();
-
   }
-
 }

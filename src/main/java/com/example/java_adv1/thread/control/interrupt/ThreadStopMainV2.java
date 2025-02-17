@@ -1,11 +1,9 @@
 package com.example.java_adv1.thread.control.interrupt;
 
-
 import static com.example.java_adv1.util.MyLogger.log;
 import static com.example.java_adv1.util.ThreadUtils.sleep;
 
 public class ThreadStopMainV2 {
-
 
   public static void main(String[] args) {
     final MyTask task = new MyTask();
@@ -15,7 +13,7 @@ public class ThreadStopMainV2 {
     sleep(4000);
     log("작업 중단 지시 thread.interrupt");
     thread.interrupt();
-    log("work 스레드 인터럽트 상태1 = "+thread.isInterrupted());
+    log("work 스레드 인터럽트 상태1 = " + thread.isInterrupted());
   }
 
   static class MyTask implements Runnable {

@@ -1,6 +1,5 @@
 package com.example.java_tutorial.generic.test.ex2;
 
-
 public class PairTest {
   public static void main(String[] args) {
     Pair<Integer, String> pair1 = new Pair<>();

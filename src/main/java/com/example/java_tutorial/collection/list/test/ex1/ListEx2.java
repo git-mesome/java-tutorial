@@ -10,7 +10,6 @@ public class ListEx2 {
     List<Integer> list = new ArrayList<>();
     System.out.println("N개의 정수를 입력하세요 (종료 0)");
 
-
     while (true) {
       int n = sc.nextInt();
       if (n == 0) {

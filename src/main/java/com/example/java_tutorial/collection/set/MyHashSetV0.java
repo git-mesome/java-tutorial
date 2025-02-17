@@ -7,7 +7,7 @@ public class MyHashSetV0 {
   private int[] element = new int[10];
   private int size = 0;
 
-  //O(n)
+  // O(n)
   public boolean add(int value) {
     if (contains(value)) {
       return false;
@@ -34,10 +34,11 @@ public class MyHashSetV0 {
 
   @Override
   public String toString() {
-    return "MyHashSetV0{" +
-        "element=" + Arrays.toString(Arrays.copyOf(element, size)) +
-        ", size=" + size +
-        '}';
+    return "MyHashSetV0{"
+        + "element="
+        + Arrays.toString(Arrays.copyOf(element, size))
+        + ", size="
+        + size
+        + '}';
   }
-
 }

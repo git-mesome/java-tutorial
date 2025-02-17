@@ -13,7 +13,7 @@ public class OfMain {
     final Map<Integer, String> map = Map.of(1, "one", 2, "two", 3, "three");
 
     // java.lang.UnsupportedOperationException
-//     list.add(1);
+    //     list.add(1);
 
     System.out.println("list = " + list);
     System.out.println("set = " + set);
@@ -21,7 +21,5 @@ public class OfMain {
     System.out.println("list class=" + list.getClass()); // immutableCollections 의 리스트가 나옴
     System.out.println("set class=" + set.getClass());
     System.out.println("map class=" + map.getClass());
-
-
   }
 }

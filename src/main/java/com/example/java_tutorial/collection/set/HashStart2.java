@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 public class HashStart2 {
   public static void main(String[] args) {
-    //배열의 인덱스 그대로 값이 전달
-    //[null, 1, 2, null, null, 5, null, null, 8, null]
+    // 배열의 인덱스 그대로 값이 전달
+    // [null, 1, 2, null, null, 5, null, null, 8, null]
     Integer[] inputArray = new Integer[10];
     inputArray[1] = 1;
     inputArray[2] = 2;

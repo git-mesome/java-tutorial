@@ -5,13 +5,13 @@ public class StringHashMain {
   static final int CAPACITY = 10;
 
   public static void main(String[] args) {
-    //char
+    // char
     char charA = 'A';
     char charB = 'B';
     System.out.println("charA = " + (int) charA);
     System.out.println("charB = " + (int) charB);
 
-    //hashCode
+    // hashCode
     System.out.println("hashCode('A') = " + hashCode("A"));
     System.out.println("hashCode('B') = " + hashCode("B"));
     System.out.println("hashCode('AB') = " + hashCode("AB"));

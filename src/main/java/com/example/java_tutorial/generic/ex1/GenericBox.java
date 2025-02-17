@@ -11,5 +11,4 @@ public class GenericBox<T> {
   public T get() {
     return value;
   }
-
 }

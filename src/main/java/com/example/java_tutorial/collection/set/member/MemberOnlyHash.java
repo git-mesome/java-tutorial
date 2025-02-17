@@ -16,14 +16,12 @@ public class MemberOnlyHash {
 
   @Override
   public int hashCode() {
-//    return Objects.hashCode(id);
+    //    return Objects.hashCode(id);
     return Objects.hash(id);
   }
 
   @Override
   public String toString() {
-    return "MemberOnlyHash{" +
-        "id='" + id + '\'' +
-        '}';
+    return "MemberOnlyHash{" + "id='" + id + '\'' + '}';
   }
 }

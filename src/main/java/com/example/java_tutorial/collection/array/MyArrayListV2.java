@@ -37,7 +37,6 @@ public class MyArrayListV2 {
     elementData = Arrays.copyOf(elementData, newCapacity);
   }
 
-
   public Object get(int index) {
     return elementData[index];
   }
@@ -59,6 +58,9 @@ public class MyArrayListV2 {
 
   public String toString() {
     return Arrays.toString(Arrays.copyOf(elementData, size))
-        + " size=" + size + ", capacity" + elementData.length;
+        + " size="
+        + size
+        + ", capacity"
+        + elementData.length;
   }
 }

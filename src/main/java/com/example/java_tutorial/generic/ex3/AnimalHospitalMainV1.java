@@ -1,6 +1,5 @@
 package com.example.java_tutorial.generic.ex3;
 
-import com.example.java_tutorial.generic.animal.Animal;
 import com.example.java_tutorial.generic.animal.Cat;
 import com.example.java_tutorial.generic.animal.Dog;
 

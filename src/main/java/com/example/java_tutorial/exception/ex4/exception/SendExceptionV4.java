@@ -1,10 +1,8 @@
 package com.example.java_tutorial.exception.ex4.exception;
 
-
 public class SendExceptionV4 extends NetworkClientExceptionV4 {
 
   private final String sendData;
-
 
   public SendExceptionV4(String sendData, String message) {
     super(message);
@@ -14,5 +12,4 @@ public class SendExceptionV4 extends NetworkClientExceptionV4 {
   public String getSendData() {
     return sendData;
   }
-
 }

@@ -57,24 +57,26 @@ public class EventLoopTest {
     EventLoop eventLoop = new EventLoop();
 
     // Define knock action
-    Action knockAction = event -> {
-      System.out.println(event.getName());
-      try {
-        Thread.sleep(1000); // Sleep for 1 second
-      } catch (InterruptedException e) {
-        e.printStackTrace();
-      }
-    };
+    Action knockAction =
+        event -> {
+          System.out.println(event.getName());
+          try {
+            Thread.sleep(1000); // Sleep for 1 second
+          } catch (InterruptedException e) {
+            e.printStackTrace();
+          }
+        };
 
     // Define who action
-    Action whoAction = event -> {
-      System.out.println(event.getName());
-      try {
-        Thread.sleep(1000); // Sleep for 1 second
-      } catch (InterruptedException e) {
-        e.printStackTrace();
-      }
-    };
+    Action whoAction =
+        event -> {
+          System.out.println(event.getName());
+          try {
+            Thread.sleep(1000); // Sleep for 1 second
+          } catch (InterruptedException e) {
+            e.printStackTrace();
+          }
+        };
 
     // Create events
     Event replying = new Event("Who's there?", whoAction, null);

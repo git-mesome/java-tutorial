@@ -29,12 +29,12 @@ public class MyArrayListV3 {
     size++;
   }
 
-  //코드 추가
+  // 코드 추가
   public void add(int index, Object e) {
     if (size == elementData.length) {
       grow();
     }
-    //데이터 이동
+    // 데이터 이동
     shiftRightFrom(index);
     elementData[index] = e;
     size++;
@@ -52,7 +52,6 @@ public class MyArrayListV3 {
     elementData = Arrays.copyOf(elementData, newCapacity);
   }
 
-
   public Object get(int index) {
     return elementData[index];
   }
@@ -66,14 +65,14 @@ public class MyArrayListV3 {
   // 코드 추가
   public Object remove(int index) {
     Object oldValue = get(index);
-    //데이터 이동
+    // 데이터 이동
     shiftLeftFrom(index);
     size--;
     elementData[size] = null;
     return oldValue;
   }
 
-  //코드 추가 index부터 마지막까지 왼쪽으로 밀기
+  // 코드 추가 index부터 마지막까지 왼쪽으로 밀기
   private void shiftLeftFrom(int index) {
     for (int i = index; i < size - 1; i++) {
       elementData[i] = elementData[i + 1];
@@ -91,6 +90,9 @@ public class MyArrayListV3 {
 
   public String toString() {
     return Arrays.toString(Arrays.copyOf(elementData, size))
-        + " size=" + size + ", capacity" + elementData.length;
+        + " size="
+        + size
+        + ", capacity"
+        + elementData.length;
   }
 }

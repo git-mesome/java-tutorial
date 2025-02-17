@@ -9,9 +9,7 @@ public class Ex1RefMainV2 {
     System.out.println("프로그램 시작");
     process.run();
     System.out.println("프로그램 종료");
-
   }
-
 
   public static void main(String[] args) {
 
@@ -37,5 +35,4 @@ public class Ex1RefMainV2 {
     hello(dice);
     hello(sum);
   }
-
 }

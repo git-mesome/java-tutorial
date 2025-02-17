@@ -14,8 +14,6 @@ public class ThreadStateMain {
     Thread.sleep(4000);
     log("myThread.state5: " + thread.getState());
     log("end");
-
-
   }
 
   static class MyRunnable implements Runnable {
@@ -24,20 +22,16 @@ public class ThreadStateMain {
     public void run() {
       try {
         log("start");
-        log("myThread.state2: " + Thread.currentThread()
-                                        .getState());
+        log("myThread.state2: " + Thread.currentThread().getState());
         log("sleep() start");
         Thread.sleep(3000);
         log("sleep() end");
 
-        log("myThread.state4: " + Thread.currentThread()
-                                        .getState());
+        log("myThread.state4: " + Thread.currentThread().getState());
         log("end");
-      }
-      catch (InterruptedException e) {
+      } catch (InterruptedException e) {
         throw new RuntimeException(e);
       }
-
     }
   }
 }

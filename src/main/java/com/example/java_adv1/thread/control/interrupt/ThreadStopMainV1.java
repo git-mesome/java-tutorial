@@ -1,6 +1,5 @@
 package com.example.java_adv1.thread.control.interrupt;
 
-
 import static com.example.java_adv1.util.MyLogger.log;
 import static com.example.java_adv1.util.ThreadUtils.sleep;
 

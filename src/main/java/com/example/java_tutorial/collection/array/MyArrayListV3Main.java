@@ -8,10 +8,10 @@ public class MyArrayListV3Main {
     list.add("b");
     list.add("c");
     System.out.println("addLast");
-    list.add(3,"addLast");
+    list.add(3, "addLast");
     System.out.println(list);
     System.out.println("addFirst");
-    list.add(0,"addFirst");
+    list.add(0, "addFirst");
     System.out.println(list);
     Object removed1 = list.remove(4);
     System.out.println("removed(4) = " + removed1); // O(1)
@@ -21,5 +21,4 @@ public class MyArrayListV3Main {
     System.out.println("removed(0) = " + removed2); // O(n)
     System.out.println(list);
   }
-
 }

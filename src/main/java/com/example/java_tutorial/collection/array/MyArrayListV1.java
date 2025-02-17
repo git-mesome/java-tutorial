@@ -47,6 +47,9 @@ public class MyArrayListV1 {
 
   public String toString() {
     return Arrays.toString(Arrays.copyOf(elementData, size))
-        + " size=" + size + ", capacity" + elementData.length;
+        + " size="
+        + size
+        + ", capacity"
+        + elementData.length;
   }
 }

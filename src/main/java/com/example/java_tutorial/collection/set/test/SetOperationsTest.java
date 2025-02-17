@@ -20,7 +20,5 @@ public class SetOperationsTest {
     Set<Integer> difference = new HashSet<>(set1);
     difference.removeAll(set2);
     System.out.println("차집합: " + difference);
-
-
   }
 }

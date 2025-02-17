@@ -1,6 +1,5 @@
 package com.example.java_tutorial.nested.nested.ex2;
 
-
 public class Network {
   public void sendMessage(String text) {
     NetworkMessage networkMessage = new NetworkMessage(text);
@@ -18,5 +17,4 @@ public class Network {
       System.out.println(content);
     }
   }
-
 }

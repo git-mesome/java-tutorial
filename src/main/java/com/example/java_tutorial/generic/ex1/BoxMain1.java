@@ -13,5 +13,4 @@ public class BoxMain1 {
     String str = stringBox.get();
     System.out.println("str = " + str);
   }
-
 }

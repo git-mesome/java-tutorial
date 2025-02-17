@@ -18,10 +18,9 @@ public class CardGameMain {
     Player winner = getWinner(player1, player2);
     if (winner != null) {
       System.out.println(winner.getName() + " 승리");
-    }else {
+    } else {
       System.out.println("무승부");
     }
-
   }
 
   private static Player getWinner(final Player player1, final Player player2) {
