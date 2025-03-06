@@ -1,4 +1,4 @@
-package com.example.java_adv1.thread.executor;
+package com.example.java_adv1.thread.executor.future;
 
 import static com.example.java_adv1.util.MyLogger.log;
 import static com.example.java_adv1.util.ThreadUtils.sleep;
