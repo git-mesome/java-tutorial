@@ -24,7 +24,7 @@ public class WriteHandler implements Runnable {
     Scanner scanner = new Scanner(System.in);
     try {
       String username = inputUsername(scanner);
-      output.writeUTF("/join " + DELIMITER + username);
+      output.writeUTF("/join" + DELIMITER + username);
 
       while (true) {
         String toSend = scanner.nextLine();
@@ -41,7 +41,7 @@ public class WriteHandler implements Runnable {
         if (toSend.startsWith("/")) {
           output.writeUTF(toSend);
         } else {
-          output.writeUTF("/message " + DELIMITER + toSend);
+          output.writeUTF("/message" + DELIMITER + toSend);
         }
       }
 
